@@ -11,8 +11,8 @@ public class Buzz_number
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number: ");//Prompts user to enter number
-        int n=sc.nextInt();//Takes input from user 
-        if(n%7==0||n/10==7)
+        int userInput=sc.nextInt();//Takes input from user 
+        if(userInput%7==0||userInput/10==7)
         {
             System.out.println("Buzz number");
         }
