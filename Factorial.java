@@ -18,7 +18,7 @@ public class Factorial
         {
             factorial=factorial*i;//Calculates factorial
         }
-        System.out.println(n+"! ="+factorial);//Prints factorial
+        System.out.println(userInput+"! ="+factorial);//Prints factorial
         /*
          * Alternatively, we can use do while loop for this program
          * 
